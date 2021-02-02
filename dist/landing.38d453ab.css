@@ -61,14 +61,14 @@ header .left .name > a {
 
 header a {
   text-decoration: none;
-  color: #ffee00;
+  color: #0011ff;
   padding: 0 5px;
   font-size: 16px;
 }
 
 .main {
   height: 600px;
-  background-image: url("images/learn.webp");
+  background-image: url("/learn.43d139b3.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -336,7 +336,7 @@ header a {
   color: white;
   padding: 0 15%;
   position: relative;
-  background-image: url("images/asked.webp");
+  background-image: url("/asked.20b94a35.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -578,4 +578,6 @@ footer .copy {
   margin-bottom: 50px;
   font-size: 14px;
 }
-/*# sourceMappingURL=landing.css.map */
+
+
+/*# sourceMappingURL=/landing.38d453ab.css.map */
