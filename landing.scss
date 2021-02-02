@@ -46,7 +46,7 @@ header {
 
   a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000000;
     padding: 0 5px;
     font-size: 16px;
   }
@@ -82,21 +82,21 @@ header {
       margin-top: 35%;
       margin-bottom: 20%;
       font-size: 72px;
-      color: white;
+      color: #ffffff;
     }
 
     p {
       margin-bottom: 25%;
       font-size: 20px;
-      color: white;
+      color: #ffffff;
     }
 
     .install {
       text-decoration: none;
-      color: white;
+      color: #ffffff;
       width: 150px;
       height: 45px;
-      border: 1px solid white;
+      border: 1px solid #ffffff;
       border-radius: 30px;
       display: flex;
       justify-content: center;
@@ -104,8 +104,8 @@ header {
     }
 
     .install:hover {
-      background-color: white;
-      color: black;
+      background-color: #ffffff;
+      color: #000000;
     }
   }
 }
@@ -133,10 +133,10 @@ header {
 
     .read {
       text-decoration: none;
-      color: black;
+      color: #000000;
       width: 150px;
       height: 45px;
-      border: 1px solid black;
+      border: 1px solid #000000;
       border-radius: 30px;
       display: flex;
       justify-content: center;
@@ -144,8 +144,8 @@ header {
     }
 
     .read:hover {
-      background-color: black;
-      color: white;
+      background-color: #000000;
+      color: #ffffff;
     }
   }
 
@@ -168,7 +168,7 @@ header {
   h2 {
     margin: 5% 0 5%;
     font-size: 40px;
-    color: rgb(35, 188, 100);
+    color: #23bc64;
   }
 
   .tips,
@@ -188,7 +188,7 @@ header {
       h2 {
         margin: 40px 0 40px;
         font-size: 22px;
-        color: rgb(35, 188, 100);
+        color: #23bc64;
       }
 
       p {
@@ -229,7 +229,7 @@ header {
       h2 {
         margin: 40px 0 40px;
         font-size: 22px;
-        color: rgb(35, 188, 100);
+        color: #23bc64;
       }
 
       ul {
@@ -243,7 +243,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #ffffff;
   padding: 0 15%;
   position: relative;
   background-image: url("images/asked.webp");
@@ -284,7 +284,7 @@ header {
 
       img {
         width: 100%;
-        color: white;
+        color: #ffffff;
       }
     }
 
@@ -323,21 +323,21 @@ header {
     margin: 5px;
     width: 400px;
     height: 35px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     padding: 10px;
     font-size: 15px;
   }
 
   input::placeholder {
-    color: black;
+    color: #000000;
   }
 
   button {
     width: 100px;
     height: 35px;
     margin: 5px;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     border: none;
     font-weight: bold;
     padding: 10px;
@@ -347,20 +347,20 @@ header {
   }
 
   button:hover {
-    background-color: gray;
-    color: black;
+    background-color: #808080;
+    color: #000000;
   }
 
   button:active {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
   }
 }
 
 .install-to {
   height: 500px;
   width: 100%;
-  background-color: black;
+  background-color: #000000;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -381,10 +381,10 @@ header {
 
     a {
       text-decoration: none;
-      color: white;
+      color: #ffffff;
       width: 150px;
       height: 45px;
-      border: 1px solid white;
+      border: 1px solid #ffffff;
       border-radius: 30px;
       display: flex;
       justify-content: center;
@@ -392,8 +392,8 @@ header {
     }
 
     a:hover {
-      background-color: white;
-      color: black;
+      background-color: #ffffff;
+      color: #000000;
     }
   }
 }
