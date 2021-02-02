@@ -125,6 +125,22 @@ for (i = 0; i < links.length; i++) {
     event.preventDefault();
   });
 }
+
+function getCoords(elem) {
+  var box = elem.getBoundingClientRect();
+  return {
+    top: box.top + pageYOffset,
+    left: box.left + pageXOffset
+  };
+}
+
+;
+var inst = document.getElementById("inst_now");
+inst.addEventListener("click", function () {
+  var chrome = document.getElementById("install");
+  var chrome_coords = getCoords(chrome);
+  scrollTo(chrome_coords);
+});
 },{}],"C:/Users/Acer/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
