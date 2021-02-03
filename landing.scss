@@ -63,7 +63,7 @@ header {
   align-items: center;
   position: relative;
 
-  .dark {
+  .dark-cover {
     position: absolute;
     left: 0;
     right: 0;
@@ -72,7 +72,7 @@ header {
     background-color: #00000014;
   }
 
-  .cont {
+  .container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -254,7 +254,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 
-  .image {
+  .dark-cover {
     position: absolute;
     left: 0;
     right: 0;
