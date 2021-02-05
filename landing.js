@@ -15,7 +15,7 @@ let install_sec_rect = install_sec.getBoundingClientRect();
 let scroll_y = button_rect.y;
 
 function handleScroll(){
-    if (scroll_y < (install_sec_rect.bottom + 300)){
+    if (scroll_y < (install_sec_rect.bottom + 400)){
        window.scrollTo(0,scroll_y);
        scroll_y += 30;
     } else {
