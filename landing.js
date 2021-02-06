@@ -28,3 +28,11 @@ button.addEventListener('click', function(){
     let timerID = setInterval(handleScroll, 10);
     setTimeout(() => clearInterval(timerID), 5000)
 });
+
+let bg = document.getElementById("bg");
+
+window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+
+    bg.style.top = value * 0.9 + 'px';
+})
