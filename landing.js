@@ -7,7 +7,7 @@ for(i=0; i<links.length; i++){
 }
 
 const install_sec = document.getElementById("install");
-const button = document.getElementById("inst_now");
+const button = document.getElementById("install_now");
 
 let button_rect = button.getBoundingClientRect();
 let install_sec_rect = install_sec.getBoundingClientRect();
@@ -29,10 +29,10 @@ button.addEventListener('click', function(){
     setTimeout(() => clearInterval(timerID), 5000)
 });
 
-let bg = document.getElementById("bg");
+let background = document.getElementById("background");
 
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
 
-    bg.style.top = value * 0.9 + 'px';
+    background.style.top = value * 0.9 + 'px';
 })
