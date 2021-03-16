@@ -498,67 +498,49 @@ footer {
   .main {
     .header {
       padding: 0 20px;
+
       .left {
-        .name {
-          .memo {
-            font-size: 20px;
-          }
-          .text {
-            font-size: 14px;
-          }
+        .memo.head {
+          font-size: 20px;
+        }
+        .text.head {
+          font-size: 14px;
         }
       }
 
-      .right {
-        .menu {
-          padding: 0 3px;
-          font-size: 14px;
-        }
+      .menu.href {
+        padding: 0 3px;
+        font-size: 14px;
       }
     }
   }
   .curve {
-    .left {
-      .text {
-        width: 80%;
+    .text.why {
+      width: 80%;
 
-        h2 {
-          font-size: 30px;
-          margin-bottom: 20px;
-        }
+      h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
 
-        p {
-          font-size: 12px;
-          margin-bottom: 30px;
-        }
-        .read {
-          font-size: 12px;
-          width: 90px;
-          height: 33px;
-        }
+      p {
+        font-size: 12px;
+        margin-bottom: 30px;
+      }
+      .read {
+        font-size: 12px;
+        width: 90px;
+        height: 33px;
       }
     }
   }
   .features {
-    h2 {
+    .heading {
       margin: 2% 0 5%;
     }
 
-    .tips,
-    .settings {
-      .left {
-        h2 {
-          margin: 20px 0 20px;
-        }
-      }
-    }
-
-    .options {
-      .right {
-        h2 {
-          margin: 20px 0 20px;
-        }
-      }
+    .small.head.green {
+      margin: 20px 0 20px;
     }
   }
 }
@@ -622,23 +604,14 @@ footer {
     }
   }
   .features {
-    h2 {
+    .heading {
       margin: 0 0 5%;
       font-size: 30px;
     }
 
-    .tips,
-    .settings {
-      .left {
-        h2 {
-          margin: 20px 0 20px;
-        }
-      }
-    }
-
     .options {
       .right {
-        h2 {
+        .small.head.green {
           margin: 15px 0 15px;
         }
 
@@ -669,17 +642,11 @@ footer {
 
         .img {
           width: 60px;
-
-          img {
-            width: 60px;
-            height: 40px;
-          }
+          height: 40px;
         }
 
-        .name {
-          .memo {
-            margin: 0;
-          }
+        .memo.head {
+          margin: 0;
         }
       }
 
@@ -766,10 +733,10 @@ footer {
   }
 
   .questions {
+    .question.mark {
+      margin: 25px auto;
+    }
     .contain {
-      .question {
-        margin: 25px auto;
-      }
       h3 {
         text-align: center;
       }
